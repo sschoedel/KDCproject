@@ -1,0 +1,339 @@
+info for panda_joint1
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link1
+dynamics: None
+limit:
+  effort: 87.0
+  lower: -2.9671
+  upper: 2.9671
+  velocity: 2.175
+mimic: None
+name: panda_joint1
+origin:
+  rpy:
+  - 0.0
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.333
+parent: panda_link0
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -2.8973
+  soft_upper_limit: 2.8973
+type: revolute
+
+info for panda_joint2
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link2
+dynamics: None
+limit:
+  effort: 87.0
+  lower: -1.8326
+  upper: 1.8326
+  velocity: 2.175
+mimic: None
+name: panda_joint2
+origin:
+  rpy:
+  - -1.57079632679
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.0
+parent: panda_link1
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -1.7628
+  soft_upper_limit: 1.7628
+type: revolute
+
+info for panda_joint3
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link3
+dynamics: None
+limit:
+  effort: 87.0
+  lower: -2.9671
+  upper: 2.9671
+  velocity: 2.175
+mimic: None
+name: panda_joint3
+origin:
+  rpy:
+  - 1.57079632679
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - -0.316
+  - 0.0
+parent: panda_link2
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -2.8973
+  soft_upper_limit: 2.8973
+type: revolute
+
+info for panda_joint4
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link4
+dynamics: None
+limit:
+  effort: 87.0
+  lower: -3.1416
+  upper: 0.0
+  velocity: 2.175
+mimic: None
+name: panda_joint4
+origin:
+  rpy:
+  - 1.57079632679
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0825
+  - 0.0
+  - 0.0
+parent: panda_link3
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -3.0718
+  soft_upper_limit: -0.0698
+type: revolute
+
+info for panda_joint5
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link5
+dynamics: None
+limit:
+  effort: 12.0
+  lower: -2.9671
+  upper: 2.9671
+  velocity: 2.61
+mimic: None
+name: panda_joint5
+origin:
+  rpy:
+  - -1.57079632679
+  - 0.0
+  - 0.0
+  xyz:
+  - -0.0825
+  - 0.384
+  - 0.0
+parent: panda_link4
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -2.8973
+  soft_upper_limit: 2.8973
+type: revolute
+
+info for panda_joint6
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link6
+dynamics: None
+limit:
+  effort: 12.0
+  lower: -0.0873
+  upper: 3.8223
+  velocity: 2.61
+mimic: None
+name: panda_joint6
+origin:
+  rpy:
+  - 1.57079632679
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.0
+parent: panda_link5
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -0.0175
+  soft_upper_limit: 3.7525
+type: revolute
+
+info for panda_joint7
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 1.0
+calibration: None
+child: panda_link7
+dynamics: None
+limit:
+  effort: 12.0
+  lower: -2.9671
+  upper: 2.9671
+  velocity: 2.61
+mimic: None
+name: panda_joint7
+origin:
+  rpy:
+  - 1.57079632679
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.088
+  - 0.0
+  - 0.0
+parent: panda_link6
+safety_controller:
+  k_position: 100.0
+  k_velocity: 40.0
+  soft_lower_limit: -2.8973
+  soft_upper_limit: 2.8973
+type: revolute
+
+info for panda_joint8
+--------------------------------------
+axis:
+- 0.0
+- 0.0
+- 0.0
+calibration: None
+child: panda_link8
+dynamics: None
+limit: None
+mimic: None
+name: panda_joint8
+origin:
+  rpy:
+  - 0.0
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.107
+parent: panda_link7
+safety_controller: None
+type: fixed
+
+info for panda_hand_joint
+--------------------------------------
+axis: None
+calibration: None
+child: panda_hand
+dynamics: None
+limit: None
+mimic: None
+name: panda_hand_joint
+origin:
+  rpy:
+  - 0.0
+  - 0.0
+  - -0.785398163397
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.0
+parent: panda_link8
+safety_controller: None
+type: fixed
+
+info for panda_finger_joint1
+--------------------------------------
+axis:
+- 0.0
+- 1.0
+- 0.0
+calibration: None
+child: panda_leftfinger
+dynamics: None
+limit:
+  effort: 20.0
+  lower: 0.0
+  upper: 0.04
+  velocity: 0.2
+mimic: None
+name: panda_finger_joint1
+origin:
+  rpy:
+  - 0.0
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.0584
+parent: panda_hand
+safety_controller: None
+type: prismatic
+
+info for panda_finger_joint2
+--------------------------------------
+axis:
+- 0.0
+- -1.0
+- 0.0
+calibration: None
+child: panda_rightfinger
+dynamics: None
+limit:
+  effort: 20.0
+  lower: 0.0
+  upper: 0.04
+  velocity: 0.2
+mimic:
+  joint: panda_finger_joint1
+  multiplier: None
+  offset: None
+name: panda_finger_joint2
+origin:
+  rpy:
+  - 0.0
+  - 0.0
+  - 0.0
+  xyz:
+  - 0.0
+  - 0.0
+  - 0.0584
+parent: panda_hand
+safety_controller: None
+type: prismatic
+
